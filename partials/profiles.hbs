@@ -1,0 +1,14 @@
+{{#if profiles.length}}			
+	{{#each profiles}}
+		{{#if network}}
+		<p>
+			<span>{{network}}: </span>
+			{{#if url}}
+				<a href="{{url}}" target="_blank" rel="noopener">{{username}}</a>
+			{{else}}
+				{{username}}
+			{{/if}}
+		</p>
+		{{/if}}
+	{{/each}}
+{{/if}}

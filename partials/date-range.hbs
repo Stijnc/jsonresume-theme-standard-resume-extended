@@ -1,9 +1,9 @@
 {{#if startDate}}
-    | {{date startDate "MMM, YYYY"}}
+    | {{dateformat startDate "YYYY"}}
 {{/if}}
 
 {{#if endDate}}
-  - {{date endDate "MMM, YYYY"}}
+  - {{dateformat endDate "YYYY"}}
 {{else}}
   {{#if startDate}}
     - Current

@@ -1,17 +1,17 @@
 {{#if resume.work.length}}
-	{{#each resume.work}}
 		<section class="position">
-			{{#if @first}}
-				<h2>Work Experience</h2>
-			{{/if}}
-			<h3>
-				{{#if website}}
-					<a target="_blank" rel="noopener" href="{{website}}">{{company}}</a>
-				{{else}}
-					{{company}}
+			<h2>Work Experience</h2>
+		{{#group resume.work by="name"}}
+			{{#each items}}
+				{{#if @first}}
+					<h3>
+							{{#if url}}
+								<a target="_blank" rel="noopener" href="{{url}}">{{../value}}</a>
+							{{else}}
+								{{../value}}
+							{{/if}}
+					</h3>
 				{{/if}}
-			</h3>
-
 			{{#if positions}}
 				{{#each positions}}
 					{{> position}}
@@ -19,6 +19,7 @@
 			{{else}}
 				{{> position}}
 			{{/if}}
+				{{/each}}
 		</section>
-	{{/each}}
+	{{/group}}
 {{/if}}
