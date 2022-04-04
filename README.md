@@ -21,12 +21,6 @@ Below you can find the list of modifications:
 - added volunteer section
 - altered href css
 
-## Design
-
-| Web                                       | Pdf                                       |
-| ----------------------------------------- | ----------------------------------------- |
-| ![Web Screenshot](./docs/web-capture.png) | ![Pdf Screenshot](./docs/pdf-capture.png) |
-
 ## How to use
 
 We're going to use the official [resume-cli](https://github.com/jsonresume/resume-cli) to run our development server.
