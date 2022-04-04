@@ -15,7 +15,9 @@
   "license": "MIT",
   "dependencies": {
     "handlebars": "^4.0.12",
-    "helper-date": "^1.0.1"
+    "handlebars-group-by": "^1.0.1",
+    "helper-date": "^1.0.1",
+    "helper-dateformat": "^1.0.0"
   },
   "devDependencies": {
     "btoa": "^1.2.1",
