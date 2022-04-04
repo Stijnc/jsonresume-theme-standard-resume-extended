@@ -237,6 +237,11 @@ date.js@^0.3.1:
   dependencies:
     debug "~3.1.0"
 
+dateformat@^2.0.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-2.2.0.tgz#4065e2013cf9fb916ddfd82efb506ad4c6769062"
+  integrity sha1-QGXiATz5+5Ft39gu+1Bq1MZ2kGI=
+
 debug@2.6.9, debug@^2.2.0:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -424,6 +429,11 @@ graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
 
+handlebars-group-by@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/handlebars-group-by/-/handlebars-group-by-1.0.1.tgz#035eeff35e7d87976b3596af37e44838249ab2ef"
+  integrity sha1-A17v8159h5drNZavN+RIOCSasu8=
+
 handlebars-utils@^1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/handlebars-utils/-/handlebars-utils-1.0.6.tgz#cb9db43362479054782d86ffe10f47abc76357f9"
@@ -467,6 +477,14 @@ helper-date@^1.0.1:
     date.js "^0.3.1"
     handlebars-utils "^1.0.4"
     moment "^2.18.1"
+
+helper-dateformat@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/helper-dateformat/-/helper-dateformat-1.0.0.tgz#b32600d2eb4a07d4c4ff5e452d4411494cb6f8c7"
+  integrity sha1-syYA0utKB9TE/15FLUQRSUy2+Mc=
+  dependencies:
+    dateformat "^2.0.0"
+    kind-of "^3.1.0"
 
 http-cache-semantics@^4.0.0:
   version "4.1.0"
