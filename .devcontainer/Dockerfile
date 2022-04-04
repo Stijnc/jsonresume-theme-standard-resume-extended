@@ -26,4 +26,4 @@ ENV RESUME_PUPPETEER_NO_SANDBOX=1
 RUN ln /usr/bin/chromium /usr/bin/chromium-browser
 
 # Install standard-version
-RUN su node -c "npm install --save-dev standard-version"
+RUN su node -c "npm install -g standard-version"
