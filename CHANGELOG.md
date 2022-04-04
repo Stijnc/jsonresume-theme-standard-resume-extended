@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/Stijnc/jsonresume-theme-standard-resume-extended/compare/v0.0.1...v0.0.2) (2022-04-04)
+
+
+### Bug Fixes
+
+* correct url value ([fe6ea1a](https://github.com/Stijnc/jsonresume-theme-standard-resume-extended/commit/fe6ea1af21e0dbcf570ba8733d2a1893a8d12855))
+
 ### 0.0.1 (2022-04-04)
 
 
