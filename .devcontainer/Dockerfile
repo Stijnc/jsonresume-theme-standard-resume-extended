@@ -24,3 +24,6 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1
 ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
 ENV RESUME_PUPPETEER_NO_SANDBOX=1
 RUN ln /usr/bin/chromium /usr/bin/chromium-browser
+
+# Install standard-version
+RUN su node -c "npm install --save-dev standard-version"
